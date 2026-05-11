@@ -148,3 +148,38 @@ footer{
   border-top:1px solid #222;
   color:#aaa;
 }
+/* NAVBAR */
+
+.navbar{
+  width:100%;
+  padding:20px 10%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:fixed;
+  top:0;
+  left:0;
+  background:#050816;
+  z-index:1000;
+}
+
+.logo{
+  color:#4da6ff;
+  font-size:30px;
+}
+
+.nav-links{
+  display:flex;
+  gap:30px;
+  list-style:none;
+}
+
+.nav-links a{
+  text-decoration:none;
+  color:white;
+  transition:0.3s;
+}
+
+.nav-links a:hover{
+  color:#4da6ff;
+}
